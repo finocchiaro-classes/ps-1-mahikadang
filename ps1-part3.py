@@ -11,7 +11,6 @@ def heart_rate(age, goal):
         upper = 0.8 * max_HR
     else:
         print("Invalid goal")
-        return
     
     print(f"Your target heart rate is between {lower:.1f} and {upper:.1f}")
 
