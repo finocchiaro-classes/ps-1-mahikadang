@@ -1,6 +1,6 @@
 # Write a function that takes two variables and does all the computations asked
 def number_fun(a, b):
-    print(f"{a} and {b}")
+    print(f"You entered {a} and {b}")
     print(f"{a} + {b} = {a + b}")
     print(f"{a} * {b} = {a * b}")
     print(f"{a} ** {b} = {a ** b}")
