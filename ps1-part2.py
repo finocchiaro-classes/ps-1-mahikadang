@@ -1,5 +1,6 @@
 # Write a function that takes two variables and does all the computations asked
 def number_fun(a, b):
+    print(f"You entered {a} and {b}")
     print(f"{a} + {b} = {a + b}")
     print(f"{a} * {b} = {a * b}")
     print(f"{a} ** {b} = {a ** b}")
@@ -11,7 +12,6 @@ firstnum = int(input("Enter an integer between 10 and 100: "))
 secondnum = int(input("Enter an integer less than 4: "))
 
 # Repeat back the numbers
-print(f"You entered {firstnum} and {secondnum}")
 number_fun(firstnum, secondnum)
 
 # Perform calculations. Be careful about string formatting for autograders.
