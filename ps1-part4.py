@@ -1,5 +1,5 @@
 prior_arrests = int(input("Prior arrests: "))
-local_ordinance = input("Prior arrests for local ordinance (Y/N): ").strip().upper()
+local_ordinance = input("Prior arrests for local ordinance (Y/N): ")
 age_at_release = int(input("Age at release: "))
 
 risk_score = 0
